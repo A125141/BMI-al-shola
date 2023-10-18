@@ -124,7 +124,7 @@ label3.place(x=226, y=490)
 
 def open_link():
     import webbrowser
-    webbrowser.open("https://www.youtube.com")
+    webbrowser.open("https://github.com/ABooD125141/BMI-al-shola")
 
 img = Image.open("images/info.png")
 
