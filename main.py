@@ -42,7 +42,7 @@ def get_current_value():
 def slider_changed(event):
     Height.set(get_current_value())
     size = int(float(get_current_value()))
-    img = Image.open("Images/man.png")
+    img = Image.open("images/man.png")
     resized_image = img.resize((60, 75 + size)) 
     photo2 = ImageTk.PhotoImage(resized_image)
     secondimage.config(image=photo2)
@@ -65,7 +65,7 @@ dark_title_bar(root)
 set_appearance_mode(root)
 
 # Icon
-image_icon = PhotoImage(file="Images/icon.png")
+image_icon = PhotoImage(file="images/icon.png")
 root.iconphoto(False, image_icon)
 
 # Background Image
